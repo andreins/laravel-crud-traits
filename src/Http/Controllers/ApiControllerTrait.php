@@ -1,6 +1,6 @@
 <?php
 
-namespace ErikFig\Http\Controllers;
+namespace Andreins\Http\Controllers;
 
 use Illuminate\Http\Request;
 
