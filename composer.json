@@ -1,6 +1,6 @@
 {
-    "name": "erikfig/laravel-crud-traits",
-    "description": "Conjunto de traits para crud no Laravel",
+    "name": "andreins/laravel-crud-traits",
+    "description": "API Trait Laravel",
     "type": "library",
     "require": {
         "laravel/framework": "5.4.*"
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ErikFig\\": "src"
+            "Andreins\\": "src"
         }
     }
 }
