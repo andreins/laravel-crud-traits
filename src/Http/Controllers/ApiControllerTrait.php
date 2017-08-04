@@ -38,9 +38,10 @@ trait ApiControllerTrait
                 return $query;
             })
             ->where($where)
-            ->with($this->relationships());
+            ->with($this->relationships())
+            ->get();
 
-        return response()->json($result);
+        return response()->json(["data" => $result]);
     }
 
     /**
